@@ -1,0 +1,34 @@
+root@K**@8*****@DO
+
+
+
+157.245.148.141
+10.15.0.5
+10.104.0.2
+
+
+
+Fix issue of mysql-server installation:
+sudo -i
+dd if=/dev/zero of=/swapfile bs=1M count=1024
+mkswap /swapfile
+swapon /swapfile
+exit
+sudo apt install mysql-server
+
+
+
+USE mysql;
+CREATE USER 'keanyuen'@'localhost' IDENTIFIED BY 'P@ssw0rd';
+GRANT ALL PRIVILEGES ON *.* TO 'keanyuen'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+
+
+USE mysql;
+DROP USER 'keanyuen'@'localhost';
+FLUSH PRIVILEGES;
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu
