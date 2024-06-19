@@ -47,6 +47,114 @@ import { Head, Link } from '@inertiajs/vue3';
         </section>
 
         <section>
+            <div class="px-8 mx-auto md:px-12 lg:px-36 max-w-7xl">
+                <div
+                    class="grid grid-cols-1 py-12 items-center lg:grid-cols-4 border-y md:grid-cols-2 border-onyx-800 lg:gap-24">
+                    <div class="col-span-full lg:col-span-1 lg:max-w-none lg:mr-auto mx-auto">
+                        <p class="text-onyx-300 text-xs">
+                            Some of the mazing companies we have worked with
+                        </p>
+                    </div>
+                    <div class="mt-12 lg:mt-0 md:col-span-3">
+                        <div class="flex flex-wrap justify-between">
+                            <img alt="Discord Logo" class="h-8 " src="https://aubergine.lexingtonthemes.com/logos/discord.svg">
+                            <img alt="Zoom Logo" class="h-8 " src="https://aubergine.lexingtonthemes.com/logos/zoom.svg">
+                            <img alt="ClassPass Logo" class="h-8 " src="https://aubergine.lexingtonthemes.com/logos/classpass.svg">
+                            <img alt="Splunge Logo" class="h-8 hidden sm:block" src="https://aubergine.lexingtonthemes.com/logos/splunge.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="overflow-hidden relative">
+            <div class="px-8 py-24 mx-auto md:px-12 lg:px-36 max-w-7xl">
+                <div data-aos="fade-up" data-aos-duration="2000" class="aos-init aos-animate">
+                    <h3 class="text-4xl text-white font-display">
+                        We did reinvented the <span class="md:block text-onyx-500">wheel and also just design</span>
+                    </h3>
+                </div>
+                <div class="relative flex flex-wrap mt-24">
+                    <div class="absolute top-8 left-0 right-0 hidden lg:block h-[1px] -z-1">
+                        <div class="h-[1px] w-full bg-blue-300 aos-init aos-animate" data-aos="fade-left"
+                            data-aos-duration="3000">
+                            &zwnj;
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-6 lg:grid-cols-4 relative">
+                        <div class="w-full pb-4 border-b border-onyx-800">
+                            <span data-aos="fade-down" data-aos-duration="500"
+                                class="flex items-center justify-center w-16 h-16 mb-5 lg:mb-16 text-blue-300 rounded-xl border bg-gradient-to-tr from-onyx-950 to-onyx-700 border-onyx-800 shadow-massive aos-init aos-animate">
+                                1
+                            </span>
+                            <div>
+                                <p class="mt-12 text-xl font-medium leading-6 text-white"> Submit </p>
+                                <p class="mt-4 text-base text-onyx-300">Subscribe to a plan &amp; request as many
+                                    designs as you'd like.</p>
+                            </div>
+                        </div>
+                        <div class="w-full pb-4 border-b border-onyx-800">
+                            <span data-aos="fade-down" data-aos-duration="1000"
+                                class="flex items-center justify-center w-16 h-16 mb-5 lg:mb-16 text-blue-300 rounded-xl border bg-gradient-to-tr from-onyx-950 to-onyx-700 border-onyx-800 shadow-massive aos-init aos-animate">
+                                2
+                            </span>
+                            <div>
+                                <p class="mt-12 text-xl font-medium leading-6 text-white"> Refine </p>
+                                <p class="mt-4 text-base text-onyx-300">Receive your design within a few business days
+                                    on average.</p>
+                            </div>
+                        </div>
+                        <div class="w-full pb-4 border-b border-onyx-800">
+                            <span data-aos="fade-down" data-aos-duration="1500"
+                                class="flex items-center justify-center w-16 h-16 mb-5 lg:mb-16 text-blue-300 rounded-xl border bg-gradient-to-tr from-onyx-950 to-onyx-700 border-onyx-800 shadow-massive aos-init aos-animate">
+                                3
+                            </span>
+                            <div>
+                                <p class="mt-12 text-xl font-medium leading-6 text-white"> Build </p>
+                                <p class="mt-4 text-base text-onyx-300">We'll revise the designs until you're 100%
+                                    satisfied.</p>
+                            </div>
+                        </div>
+                        <div class="w-full pb-4 border-b border-onyx-800">
+                            <span data-aos="fade-down" data-aos-duration="2500"
+                                class="flex items-center justify-center w-16 h-16 mb-5 lg:mb-16 text-blue-300 rounded-xl border bg-gradient-to-tr from-onyx-950 to-onyx-700 border-onyx-800 shadow-massive shadow-[0px_0px_0px_3px_#5576F9,0px_0px_0px_6px_rgba(124,150,250,0.5)] aos-init aos-animate">
+                                4
+                            </span>
+                            <div>
+                                <p class="mt-12 text-xl font-medium leading-6 text-white"> Enjoy </p>
+                                <p class="mt-4 text-base text-onyx-300">Enjoy your marvellous new website!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000"
+                    class="text-center ring-1 ring-onyx-800 border bg-gradient-to-tr from-onyx-950 to-onyx-700 border-onyx-800 shadow-big h-full lg:col-span-full lg:p-20 mt-24 p-8 rounded-4xl relative aos-init aos-animate">
+                    <h4 class="lg:text-3xl text-white font-display">
+                        "Aubergine Studio are a rare breed of designers
+                        <span class="md:block">and developers they understands business needs."</span>
+                    </h4>
+                    <p class="text-onyx-300 text-xl mt-6 italic uppercase">
+                        Gerard Depardieu
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-x-6 mt-24 lg:text-center">
+                    <div class="pb-4 border-b border-onyx-800">
+                        <p class="text-xl font-medium leading-6 text-white"> Totally async </p>
+                        <p class="mt-4 text-base text-onyx-300">Don't like meetings? We don't either; so much so that we've outlawed them.</p>
+                    </div>
+                    <div class="pb-4 border-b border-onyx-800">
+                        <p class="text-xl font-medium leading-6 text-white"> Manage with Trello </p>
+                        <p class="mt-4 text-base text-onyx-300">Manage your design board using Trello. View active, queued, and completed tasks.</p>
+                    </div>
+                    <div class="pb-4 border-b border-onyx-800">
+                        <p class="text-xl font-medium leading-6 text-white"> Invite unlimited team members </p>
+                        <p class="mt-4 text-base text-onyx-300">Invite your entire team, so anyone can submit requests and track their progress.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
             <div class="px-8 py-12 mx-auto md:px-12 lg:py-24 lg:px-36 max-w-7xl">
                 <div data-aos="fade-up" data-aos-duration="2000" class="aos-init">
                     <h3 class="text-4xl text-white font-display">
